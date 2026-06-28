@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "cobweb_alert",
+  "version": "1.0.0",
+  "name": "Cobweb Alert Mod",
+  "description": "Turns cobwebs red while a player or mob is trapped inside them. Client-side only - works on any server.",
+  "authors": [
+    "You"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/cobweb_alert/icon.png",
+
+  "environment": "client",
+
+  "entrypoints": {
+    "client": [
+      "com.cobwebalert.CobwebAlertClient"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+
+  "suggests": {}
+}
